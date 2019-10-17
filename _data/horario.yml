@@ -1,0 +1,131 @@
+lunes:
+  espacio-1:
+    clase: 
+    horario:
+    sede:
+    color: fffff
+  espacio-2:
+    clase: Yoga Integral
+    horario: 18:15hs
+    sede: Almagro
+    color: fffff
+  espacio-3:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Almagro
+    color: fffff
+  espacio-4:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Boedo
+    color: fffff
+
+martes:
+  espacio-1:
+    clase: Yoga Suave
+    horario: 11:15hs
+    sede: Boedo
+    color: fffff
+  espacio-2:
+    clase: Yoga Integral
+    horario: 18:15hs
+    sede: Almagro
+    color: fffff
+  espacio-3:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Almagro
+    color: fffff
+  espacio-4:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Boedo
+    color: fffff
+
+miercoles:
+  espacio-1:
+    clase: 
+    horario:
+    sede: 
+    color: fffff
+  espacio-2:
+    clase: Yoga Integral
+    horario: 18:15hs
+    sede: Almagro
+    color: fffff
+  espacio-3:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Almagro
+    color: fffff
+  espacio-4:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Boedo
+    color: fffff
+
+jueves:
+  espacio-1:
+    clase: 
+    horario:
+    sede: 
+    color: fffff
+  espacio-2:
+    clase: Yoga Integral
+    horario: 18:15hs
+    sede: Almagro
+    color: fffff
+  espacio-3:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Almagro
+    color: fffff
+  espacio-4:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Boedo
+    color: fffff
+
+viernes:
+  espacio-1:
+    clase: 
+    horario:
+    sede: 
+    color: fffff
+  espacio-2:
+    clase: Yoga Integral
+    horario: 18:15hs
+    sede: Almagro
+    color: fffff
+  espacio-3:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Almagro
+    color: fffff
+  espacio-4:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Boedo
+    color: fffff
+
+sabado:
+  espacio-1:
+    clase: 
+    horario:
+    sede: 
+    color: fffff
+  espacio-2:
+    clase: Yoga Integral
+    horario: 18:15hs
+    sede: Almagro
+    color: fffff
+  espacio-3:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Almagro
+    color: fffff
+  espacio-4:
+    clase: Yoga Integral
+    horario: 20hs
+    sede: Boedo
+    color: fffff

@@ -1,0 +1,11 @@
+#HOME
+- name: Inicio
+  link: "/"
+
+#Galeria
+- name: Galeria
+  link: "galeria"
+
+#Nosotros
+- name: Nosotros
+  link: "equipo"

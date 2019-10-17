@@ -1,0 +1,46 @@
+<style>
+@media (orientation: landscape) {
+    .bg-jumbo{
+      background: black url(//images.weserv.nl/?url=https://pratyaksayoga.github.io{{page.portada}}&w=1900)no-repeat;
+    }
+  }
+  @media (orientation: portrait) {
+    .bg-jumbo{
+      background: black url(//images.weserv.nl/?url=https://pratyaksayoga.github.io{{page.portada-phone}}&w=1000)no-repeat;
+    }
+  }
+
+  .bg-jumbo{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+</style>
+<div class="view full-page-intro bg-jumbo" id="home">
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex align-items-center">
+        <!-- Content -->
+        <div class="container">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12 white-text text-center">
+                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>{{ page.titular }}</strong></h1>
+                    <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>{{ page.descripcion }}</strong></h5>
+                    <a class="btn btn-outline-white wow fadeInDown" href="{{site.url}}/galeria" data-wow-delay="0.4s">Galeria</a>
+                    <a class="btn btn-outline-white wow fadeInDown" href="{{site.url}}/equipo" data-wow-delay="0.4s">Nosotros</a>
+                </div>
+                <div class="col justify-self-center text-center">
+                    <a class="btn btn-outline-white wow fadeInDown" href="#beneficios" data-wow-delay="0.4s">Más iformación</a>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+</div>

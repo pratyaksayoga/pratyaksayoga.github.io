@@ -1,0 +1,64 @@
+  <!--Main Navigation-->
+    <!--Navbar-->
+    {% if page.title == 'galeria' %}
+    <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar" id="sections-nav"> 
+    {% else %}
+      <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top" {% if page.title == 'equipo' %} id="sections-nav" {% endif %} >
+    {% endif %}
+  
+      <!-- Additional container -->
+      <div class="container">
+
+        <!-- Navbar brand -->
+        
+        <a class="navbar-brand"  href={{site.url}} style="max-width: 70%;">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-6 brand-logo" style="max-width: 100px;  fill: white;">
+              {% include logo.svg %}
+            </div>
+            <div class="col-6 col-lg-12 text-center">
+              <p style="font-size: 1rem" class="my-auto brand-name">{{ site.name }}</p>
+            </div>
+          </div>
+        </a>
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto" id="navbar-scrollspy">
+            {% if page.title == 'galeria' or page.title == 'equipo' %}
+              {% assign links = site.data.navigation-simple %}
+            {% else %}
+              {% assign links = site.data.navigation %}
+            {% endif %}
+            {% for item in links %}
+                <li class="nav-item {% if page.url == item.link %} active {% endif %}">
+                    <a class="nav-link align-self-end" href="{% if item.link == '/' %} {{site.url}} {% else %}{{ item.link }}{% endif %}">
+                        {% if item.name == 'Galeria' or item.name == 'Inicio' or item.name == 'Nosotros' %}
+                        <strong>{{ item.name }}</strong>
+                        {% else %}
+                        {{ item.name }}
+                        {% endif %}
+                        {% if page.url == item.link %}
+                            <span class="sr-only">(current)</span>
+                        {% endif %}
+                    </a>
+                </li>
+            {% endfor %}
+          </ul>
+
+          
+        <!-- Collapsible content -->
+
+      </div>
+      
+      <!-- Additional container -->
+
+    </nav>
+    <!--/.Navbar-->

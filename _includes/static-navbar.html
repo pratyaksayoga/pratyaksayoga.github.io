@@ -1,0 +1,36 @@
+  <!--Main Navigation-->
+
+    <!--Navbar-->
+    <nav id="sections-nav" class="navbar {% if page.title != 'galeria' %}fixed-top{% endif %} navbar-expand-lg navbar-dark">
+
+            <!-- Additional container -->
+            <div class="container">
+      
+              <!-- Navbar brand -->
+              
+              <a class="navbar-brand text-center flex-start"  href={{site.url}}>
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-6 brand-logo" style="max-width: 100px;  fill: white;">
+                    {% include logo.svg %}
+                  </div>
+                  <div class="col-6 col-lg-12">
+                    <p class="my-auto text-wrap brand-name">{{ site.name }}</p>
+                  </div>
+                </div>
+              </a>
+      
+              <div aria-label="breadcrumb" class="mr-auto">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="{{ site.url }}">Inicio</a></li>
+                  {% if page.categoria %}
+                  <li class="breadcrumb-item">{{ page.categoria | capitalize }}</li>
+                  {% endif %}
+                  <li class="breadcrumb-item active">{{ page.title | capitalize }}</li>
+                </ol>
+              </div>
+            
+            <!-- Additional container -->
+      
+          </nav>
+          <!--/.Navbar-->
+      

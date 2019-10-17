@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div class="container my-5 py-5">
+    <div class="jumbotron text-center hoverable p-4 wow fadeInLeft">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-8 col-lg-8 mt-3 align-self-center">
+                <h1 class="">{{ page.titulo }}</h1>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3">
+                    <p class="note note-info">
+                        {{ page.date | date: "%d/%m/%Y" }}<br>
+                        {{ page.date | date: "%H:%Mhs" }}<br>
+                        {% if page.ubicacion %}
+                        {{ page.ubicacion }}
+                        {% endif %}
+                    </p>       
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1 mt-5">
+            
+                <p class="font-weight-normal">{{ page.content }}</p>
+
+                {% if page.profesor %}
+                <p >A cargo de {{ page.profesor }}</p>
+                {% endif %}
+
+                {% if page.precio %}
+                <p>Precio: {{ page.precio }}</p>
+                {% endif %}
+            </div>
+        </div>
+        {% if page.linkFacebook or page.linkInstagram %}
+        <div class="row align-content-center">
+            {% if page.linkFacebook %}
+            <div class="col">
+                <a href="{{page.linkFacebook}}" target="_blank">
+                    <span class="fab fa-facebook fa-2x"></span>
+                </a>    
+            </div>
+            {% endif %}
+            {% if page.linkInstagram %}
+            <div class="col">
+                <a href="{{page.linkInstagram}}" target="_blank">
+                    <span class="fab fa-instagram fa-2x"></span>
+                </a>    
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
