@@ -3,10 +3,10 @@ layout: default
 ---
 <div class="container">
     <div class="gallery">
-        <h1 class="wow fadeIn">Galeria</h1>
-        <ul class="gallery__list px-0 wow fadeIn delay-1s ">
+        <h1 class="animated fadeIn">Galeria</h1>
+        <ul class="gallery__list px-0 ">
             {% for img in site.galeria %}
-            <li>
+            <li class="wow fadeIn delay-1s ">
                 <figure>
                     <img tabindex="2" src="//images.weserv.nl/?url={{site.url}}{{img.imagen}}&w=300" alt="{{img.pie}}" onerror="this.src='{{site.url}}{{img.imagen}}'" onclick="openModal();currentSlide({{img.title}})" class="hover-shadow">
                 </figure>

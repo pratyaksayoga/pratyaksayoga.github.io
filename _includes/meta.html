@@ -9,14 +9,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{site.url}}/favicon-16x16.png">
 <link rel="manifest" href="{{site.url}}/site.webmanifest">
 
-{% if page.excerpt %}
-<meta name="description" content="{{ page.excerpt| strip_html }}" />
-<meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-<meta name="twitter:card" content="{{page.excerpt}}">
+{% if page.description %}
+<meta name="description" content="{{ page.description }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta name="twitter:description" content="{{ page.description }}">
 {% else %}
-<meta name="description" content="{{ site.description }}">
-<meta property="og:description" content="{{ site.description }}" />
-<meta name="twitter:description" content="{{page.description}}">
+<meta name="description" content="{{ page.excerpt | strip_html }}">
+<meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
 {% endif %}
 <meta name="author" content="{{ site.name }}" />
 <meta name="twitter:creator" content="{{site.name}}">
@@ -27,6 +27,6 @@
 {% endif %}
 
 <!-- Twitter Card data -->
-<meta name="twitter:site" content="{{site.name}}">
-<meta name="twitter:image" content="//images.weserv.nl/?url={{site.url}}/assets/images/active-activity-adult-1472887.jpg&w=300">
+<meta name="twitter:site" content="{{site.name}}" />
+<meta name="twitter:image" content="//images.weserv.nl/?url={{site.url}}/assets/images/active-activity-adult-1472887.jpg&w=300" />
 <meta property="og:image" content="//images.weserv.nl/?url={{site.url}}/assets/images/active-activity-adult-1472887.jpg&w=1000" />

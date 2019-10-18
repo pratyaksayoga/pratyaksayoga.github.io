@@ -1,5 +1,4 @@
 ---
-layout: eventos
 date: 2020-10-19 15:00
 profesor: Martín Ramirez
 titulo: Yoga en el Parque

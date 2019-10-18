@@ -4,6 +4,7 @@ layout: index
 portada: /assets/images/background.jpg
 portada-phone: /assets/images/background-portrait.jpg
 title: home
+description: Clases de Yoga en Boedo y Almagro
 subtitle: Clases de Yoga en Boedo y Almagro
 titular: Pratyaksa Yoga
 descripcion: Clases de Yoga en Boedo y Almagro
