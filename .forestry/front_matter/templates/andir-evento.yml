@@ -4,31 +4,50 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Título
+  config:
+    required: true
 - type: text
   name: subtitle
-  label: subtitle
+  label: Descripción
+  description: Sólo es visible al compartir la página
 - type: datetime
   name: date
-  label: date
+  label: Fecha del evento
+  config:
+    time_format: h:mm
+    date_format: YYYY/MM/DD
+    required: true
 - type: text
   name: profesor
-  label: profesor
+  label: Profesor (opcional)
+  description: Opcional
 - type: text
   name: resumen
-  label: resumen
+  label: Resumen
+  description: Descripción breve del evento que se en la página principal
+  config:
+    required: true
 - type: text
   name: categoria
   label: categoria
+  hidden: true
+  config:
+    required: true
+  default: eventos
 - type: text
   name: ubicacion
-  label: ubicacion
+  label: Ubicación
+  description: Opcional
 - type: text
   name: precio
-  label: precio
+  label: Precio
+  description: Opcional
 - type: text
   name: linkFacebook
-  label: linkFacebook
+  label: Link a Facebook (opcional)
+  description: Pueden poner link al evento en facebook
 - type: text
   name: linkInstagram
-  label: linkInstagram
+  label: Link a Instagram (Opcional)
+  description: Pueden poner un link a Instagram relacionado al evento
