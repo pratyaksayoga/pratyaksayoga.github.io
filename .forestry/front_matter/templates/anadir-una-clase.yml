@@ -1,0 +1,25 @@
+---
+label: Añadir una Clase
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: category
+  label: category
+- type: file
+  name: imagen
+  label: imagen
+- type: text
+  name: alt
+  label: alt
+- type: text
+  name: linkFacebook
+  label: linkFacebook
+- type: text
+  name: linkInstagram
+  label: linkInstagram
