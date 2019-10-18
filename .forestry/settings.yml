@@ -8,8 +8,9 @@ sections:
   label: Pages
   create: all
 - type: document
-  path: _data/horarios.yml
+  path: _data/horario.yml
   label: Horario
+  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
