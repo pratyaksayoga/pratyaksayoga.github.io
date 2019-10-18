@@ -4,22 +4,32 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Título
+  config:
+    required: true
 - type: text
   name: subtitle
-  label: subtitle
+  label: 'Descripción '
+  description: No se ve en el contenido de la clase. Se ve al compartir la página
 - type: text
   name: category
   label: category
+  hidden: true
+  default: clases
+  config:
+    required: true
 - type: file
   name: imagen
-  label: imagen
+  label: 'Imagen '
 - type: text
   name: alt
-  label: alt
+  label: Pie de foto
+  description: No es visible, sirve para los lectores de pantalla para no videntes
 - type: text
   name: linkFacebook
-  label: linkFacebook
+  label: Link a Facebook (opcional)
+  description: Sería para poner un link a más info en Face
 - type: text
   name: linkInstagram
-  label: linkInstagram
+  label: Link a Instagram (opcional)
+  description: Sería para poner un link a más info en Instagram
