@@ -1,6 +1,5 @@
 ---
 autor: Marie
-fecha: 12 de noviembre de 2018
 orden: 1
 ---
 Realmente aman lo que hacen y lo transmiten, mi mamá gracias a Pratyaksa Yoga Almagro

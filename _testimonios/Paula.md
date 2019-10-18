@@ -1,6 +1,5 @@
 ---
 autor: Paula
-fecha: 23 de noviembre de 2018
 ---
 Buenas personas , excelentes profes ... Aman lo que hacen y se nota !!! Son tan genios ...
 Tengo mucho para decir ... Empezando por su generosidad , de una apertura mental muy
