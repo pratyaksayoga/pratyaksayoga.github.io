@@ -1,0 +1,7 @@
+---
+label: Añadir Testimonio
+hide_body: false
+fields:
+- type: text
+  name: autor
+  label: autor
