@@ -228,7 +228,7 @@ layout: default
                             </td> 
                         </tr>
                         <tr>
-                            <td style="color: {{site.data.horario.lunes.espacio-4.color}};">
+                            <td style="color: #{{site.data.horario.lunes.espacio-4.color}};">
                                 {{ site.data.horario.lunes.espacio-4.horario }}
                                 <br>
                                 {{ site.data.horario.lunes.espacio-4.clase }}
@@ -302,7 +302,7 @@ layout: default
                             <!-- Card content -->
                             <div class="card-body">
                                 <!-- Title -->
-                                <h4 class="card-title">{{ evento.titulo }}</h4>
+                                <h4 class="card-title">{{ evento.title }}</h4>
                                 <!-- Date -->
                                 <p class="card-text">{{ evento.date | date: "%m/%d/%Y - %R" }}</p>
                                 <!-- Teacher -->
