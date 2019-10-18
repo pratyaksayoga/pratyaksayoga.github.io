@@ -1,0 +1,10 @@
+---
+label: Añadir Foto a la Galería
+hide_body: true
+fields:
+- type: file
+  name: imagen
+  label: imagen
+- type: text
+  name: pie
+  label: pie
