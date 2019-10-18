@@ -4,7 +4,9 @@ hide_body: true
 fields:
 - type: file
   name: imagen
-  label: imagen
+  label: Imagen
 - type: text
   name: pie
-  label: pie
+  label: Pie de foto
+  description: No es visible, se utiliza para los lectores de pantalla que utiliza
+    la gente no vidente
