@@ -5,9 +5,20 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/navigation.yml
+  label: Barra de navegación
+  match: "**/*"
+- type: document
+  path: _data/secciones.yml
+  label: Secciones
+  match: "**/*"
+- type: document
+  path: _data/footer.yml
+  label: Pie de Página
+  match: "**/*"
+- type: document
   path: _data/redes.yml
   label: Datos de Contacto
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
