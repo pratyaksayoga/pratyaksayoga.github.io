@@ -4,30 +4,38 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Configuración General
 - type: document
   path: _data/navigation.yml
   label: Barra de navegación
-  match: "**/*"
 - type: document
   path: _data/secciones.yml
   label: Secciones
-  match: "**/*"
-- type: document
-  path: _data/footer.yml
-  label: Pie de Página
-  match: "**/*"
 - type: document
   path: _data/redes.yml
   label: Datos de Contacto
+- type: document
+  path: _data/footer.yml
+  label: Pie de Página
 - type: jekyll-pages
-  label: Pages
+  label: Páginas (Principal, Galería, Novedades)
   create: all
+- type: heading
+  label: Contenido
+- type: directory
+  path: _clases
+  label: Clases
+  create: all
+  match: "**/*"
+- type: directory
+  path: _eventos
+  label: Eventos
+  create: all
+  match: "**/*"
 - type: document
   path: _data/horario.yml
   label: Horario
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: directory
   path: _testimonios
   label: Testimonios
@@ -41,16 +49,6 @@ sections:
 - type: directory
   path: _equipo
   label: Equipo
-  create: all
-  match: "**/*"
-- type: directory
-  path: _clases
-  label: Clases
-  create: all
-  match: "**/*"
-- type: directory
-  path: _eventos
-  label: Eventos
   create: all
   match: "**/*"
 upload_dir: assets/images
