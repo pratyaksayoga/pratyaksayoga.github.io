@@ -40,8 +40,11 @@
             {% for item in links %}
                 <li class="nav-item {% if page.url == item.link %} active {% endif %}">
                     <a class="{% if item.name == {{page.title}} %}active{% endif %} nav-link align-self-end" href="{% if item.link == '/' %} {{site.url}} {% else %}{{ item.link }}{% endif %}">
-
-                        {{ item.name | capitalize }}
+                        {% if item.name == 'Galeria' or item.name == 'Inicio' or item.name == 'Nosotros' %}
+                          <strong>{{item.name | capitalize }}</strong>
+                        {% else %}
+                          {{ item.name | capitalize }}
+                        {% endif %}
                         {% if page.title == item.name %}
                             <span class="sr-only">(current)</span>
                         {% endif %}

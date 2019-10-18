@@ -8,7 +8,7 @@ layout: default
             {% for img in site.galeria %}
             <li class="wow fadeIn delay-1s ">
                 <figure>
-                    <img tabindex="2" src="//images.weserv.nl/?url={{site.url}}{{img.imagen}}&w=300" alt="{{img.pie}}" onerror="this.src='{{site.url}}{{img.imagen}}'" onclick="openModal();currentSlide({{img.title}})" class="hover-shadow">
+                    <img tabindex="2" src="//images.weserv.nl/?url={{site.url}}{{img.imagen}}&w=600" alt="{{img.pie}}" onerror="this.src='{{site.url}}{{img.imagen}}'" onclick="openModal();currentSlide({{img.title}})" class="hover-shadow">
                 </figure>
             </li>
             {% endfor %}
