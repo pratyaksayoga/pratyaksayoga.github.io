@@ -2,8 +2,8 @@
 category: clases
 title: 'Estilos '
 subtitle: ''
-imagen: ''
-alt: ''
+imagen: "/assets/images/body-stretching-yoga-beauty-35987.jpg"
+alt: Postura Uttanasana yoga
 linkFacebook: https://www.facebook.com/pratyaksa.yoga
 linkInstagram: " https://www.instagram.com/pratyaksayogaalmagro/"
 
