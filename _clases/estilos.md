@@ -6,7 +6,6 @@ imagen: ''
 alt: ''
 linkFacebook: https://www.facebook.com/pratyaksa.yoga
 linkInstagram: " https://www.instagram.com/pratyaksayogaalmagro/"
-published: false
 
 ---
 En todos nuestros estilos se trabajan diferentes técnicas de respiración, pranayamas, meditación, asanas ( posturas de Yoga), conciencia corporal y relajación. A su vez, cada estilo está atravesado por las adaptaciones de las posturas de Yoga a cada practicante, ya que a pesar de ser prácticas grupales, también constituye una práctica personalizada. 
