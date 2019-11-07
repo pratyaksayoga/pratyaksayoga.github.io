@@ -1,8 +1,9 @@
+---
 lunes:
   espacio-1:
-    clase: 
-    horario:
-    sede:
+    clase: ''
+    horario: 
+    sede: 
     color: 
   espacio-2:
     clase: Yoga Integral
@@ -15,11 +16,10 @@ lunes:
     sede: Almagro
     color: 70ae6e
   espacio-4:
-    clase: Yoga Integral
-    horario: 20hs
-    sede: Boedo
-    color: f4743b
-
+    clase: ''
+    horario: ''
+    sede: ''
+    color: ''
 martes:
   espacio-1:
     clase: 
@@ -41,7 +41,6 @@ martes:
     horario: 20hs
     sede: Almagro
     color: 483c46
-
 miercoles:
   espacio-1:
     clase: Yoga Integral
@@ -63,11 +62,10 @@ miercoles:
     horario: 20hs
     sede: Boedo
     color: 35a7ff
-
 jueves:
   espacio-1:
     clase: 
-    horario:
+    horario: 
     sede: 
     color: 
   espacio-2:
@@ -83,9 +81,8 @@ jueves:
   espacio-4:
     clase: 
     horario: 
-    sede:
+    sede: 
     color: 
-
 viernes:
   espacio-1:
     clase: Yoga Integral
@@ -107,11 +104,10 @@ viernes:
     horario: 20hs
     sede: Boedo
     color: f4743b
-
 sabado:
   espacio-1:
     clase: 
-    horario:
+    horario: 
     sede: 
     color: 
   espacio-2:
@@ -125,7 +121,7 @@ sabado:
     sede: 
     color: 
   espacio-4:
-    clase:
+    clase: 
     horario: 
     sede: 
     color: 
