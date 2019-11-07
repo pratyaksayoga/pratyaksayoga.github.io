@@ -33,3 +33,5 @@ fields:
   name: linkInstagram
   label: Link a Instagram (opcional)
   description: Sería para poner un link a más info en Instagram
+pages:
+- _clases/estilos.md
