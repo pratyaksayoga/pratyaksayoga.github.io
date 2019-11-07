@@ -25,7 +25,7 @@ seccion-beneficios-item5-subtitulo: Al sincronizar la respiración profunda y re
   la presión arterial
 seccion-beneficios-item6-titulo: Nos conecta con estados de serenidad
 seccion-beneficios-item6-subtitulo: Meditación y relajación son parte de la práctica
-seccion-clases-titulo: Clases y Talleres
+seccion-clases-titulo: Clases
 seccion-horarios-titulo: Horarios
 seccion-eventos: Proximos Eventos
 seccion-contacto-titulo: Contactanos
