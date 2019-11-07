@@ -6,7 +6,7 @@ layout: default
         <h1 class="animated fadeIn">Galeria</h1>
         <ul class="gallery__list px-0 ">
             {% for img in site.galeria %}
-            <li class="wow fadeIn delay-1s ">
+            <li class="animated fadeIn delay-2s ">
                 <figure>
                     <img tabindex="2" src="//images.weserv.nl/?url={{site.url}}{{img.imagen}}&w=600" alt="{{img.pie}}" onerror="this.src='{{site.url}}{{img.imagen}}'" onclick="openModal();currentSlide({{img.title}})" class="hover-shadow">
                 </figure>
