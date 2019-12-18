@@ -1,6 +1,6 @@
 ---
-title: Yoga en el Parque
-subtitle: Yoga en el Parque
+title: Yoga en Parque Centenario
+subtitle: A contribución voluntaria
 date: 
 profesor: 'Felipe y Alejandra '
 resumen: Yoga Integral en Parque Centenario. Sábado y domingo 12h, Lunes  Jueves 18h.
