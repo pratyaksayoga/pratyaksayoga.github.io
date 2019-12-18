@@ -2,7 +2,6 @@
 imagen: "/assets/images/72085629_631435887260861_1124746742483386368_n.jpg"
 nombre: Felipe Jorquera
 subtitulo: Profesor, practicante y estudiante de Yoga
-published: false
 
 ---
 Profesor, practicante y estudiante de Yoga.   
