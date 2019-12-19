@@ -12,8 +12,8 @@ seccion-beneficios-item1-titulo: Mejora la salud general
 seccion-beneficios-item1-subtitulo: Yoga es una formidable actividad integral para
   cuerpo y mente
 seccion-beneficios-item2-titulo: Mejora la postura
-seccion-beneficios-item2-subtitulo: A través de la tonificación y el estiramiento
-  muscular
+seccion-beneficios-item2-subtitulo: 'A través de la tonificación y estiramiento muscular,
+  y el desarrollo de la conciencia corporal '
 seccion-beneficios-item3-titulo: Mejora la respiración
 seccion-beneficios-item3-subtitulo: Educa nuestro sistema respiratorio y nos ayuda
   a oxigenarnos mejor
