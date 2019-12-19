@@ -69,10 +69,10 @@ jueves:
     sede: 
     color: 
   espacio-2:
-    clase: 
-    horario: 
-    sede: 
-    color: 
+    clase: Yoga Integral
+    horario: '18h '
+    sede: Parque Centenario, Caba.
+    color: ''
   espacio-3:
     clase: Yoga Suave
     horario: 20hs
