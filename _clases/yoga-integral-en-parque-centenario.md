@@ -5,7 +5,7 @@ subtitle: Clases de Yoga al aire libre en Parque centenario, Caba. Sábado y dom
   12h, Lunes y jueves 18h.
 imagen: ''
 alt: ''
-linkFacebook: ''
+linkFacebook: https://www.facebook.com/groups/yoga.cente.pratyaksa/
 linkInstagram: ''
 
 ---
