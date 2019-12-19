@@ -387,12 +387,12 @@ layout: default
 <!-- SECCION CONTACTO INICIO-->
 <section class="pt-5" id="contacto">
     <div class="container">
-        <div class="row">
+        <div class="row"> 
             <div class="col-12">
                 <div class="row align-items-around wow slideInLeft text-center">
                         <div class="col-12 my-5">
-                            <h2>Contactanos</h2>
-                            <p>Podés comunicarte con nostros a través de los siguientes medios:</p>
+                            <h2>{{page.seccion-contacto-titulo}}</h2>
+                            <p>{{page.seccion-contacto-subtitulo}}</p>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 text-center my-3 mb-3">
                             <a href="{{site.data.redes.facebook-almagro}}">
@@ -401,9 +401,10 @@ layout: default
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 text-center my-3">
+                            <a href="https://wa.me/{{site.data.redes.whatsapp_sin_simbolos}}"
                             <span class="fab fa-whatsapp fa-4x text-success mb-3"></span>
-                            <h5 class="text-success">11-6242-7496<strong></strong></h5>
-                            <p class="text-success">Sólo mensajes</p>
+                            <h5 class="text-success">{{site.data.redes.whatsapp}}<strong></strong></h5>
+                            <p class="text-success">{{site.data.redes.whatsapp_text}}</p>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 text-center my-3">
                             <a href="{{site.data.redes.facebook-boedo}}">
@@ -420,7 +421,7 @@ layout: default
                         <div class="col-12 col-sm-6 col-md-4 text-center mt-3">
                             <a href="mailto:{{site.data.redes.mail}}">
                             <span class="fa fa-envelope fa-4x text-success mb-3"></span>
-                            <h5 class="text-success"><strong>pratyaksayoga@gmail.com</strong></h5>
+                            <h5 class="text-success"><strong>{{site.data.redes.mail}}</strong></h5>
                             </a>
                         </div>
                     </div>          
