@@ -1,0 +1,412 @@
+---
+label: 'Domingo '
+hide_body: true
+fields:
+- type: field_group
+  name: lunes
+  label: lunes
+  fields:
+  - type: field_group
+    name: espacio-1
+    label: espacio-1
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-2
+    label: espacio-2
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-3
+    label: espacio-3
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-4
+    label: espacio-4
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+- type: field_group
+  name: martes
+  label: martes
+  fields:
+  - type: field_group
+    name: espacio-1
+    label: espacio-1
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-2
+    label: espacio-2
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-3
+    label: espacio-3
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-4
+    label: espacio-4
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+- type: field_group
+  name: miercoles
+  label: miercoles
+  fields:
+  - type: field_group
+    name: espacio-1
+    label: espacio-1
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-2
+    label: espacio-2
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-3
+    label: espacio-3
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-4
+    label: espacio-4
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+- type: field_group
+  name: jueves
+  label: jueves
+  fields:
+  - type: field_group
+    name: espacio-1
+    label: espacio-1
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-2
+    label: espacio-2
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-3
+    label: espacio-3
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-4
+    label: espacio-4
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+- type: field_group
+  name: viernes
+  label: viernes
+  fields:
+  - type: field_group
+    name: espacio-1
+    label: espacio-1
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-2
+    label: espacio-2
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-3
+    label: espacio-3
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-4
+    label: espacio-4
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+- type: field_group
+  name: sabado
+  label: sabado
+  fields:
+  - type: field_group
+    name: espacio-1
+    label: espacio-1
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-2
+    label: espacio-2
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-3
+    label: espacio-3
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
+  - type: field_group
+    name: espacio-4
+    label: espacio-4
+    fields:
+    - type: text
+      name: clase
+      label: clase
+    - type: text
+      name: horario
+      label: horario
+    - type: text
+      name: sede
+      label: sede
+    - type: text
+      name: color
+      label: color
