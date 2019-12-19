@@ -11,6 +11,10 @@ linkInstagram: https://www.instagram.com/pratyaksa_yoga/
 ---
 Yoga Integral en Parque Centenario, Caba.  
 Sábado y Domingo 12 hs  
-Lunes y Jueves 18 hs  
-![🌧](https://static.xx.fbcdn.net/images/emoji.php/v9/t29/1.5/16/1f327.png) Se suspende por lluvia  
+Jueves 18 hs  
+Se suspende por lluvia 🌧   
 Punto de encuentro: [http://bit.ly/2nQAUcx](http://bit.ly/2nQAUcx "http://bit.ly/2nQAUcx")
+
+Te recomendamos ir con ropa cómoda y llevar Mat de Yoga/manta/lona/esterilla o alguna superficie que te aísle del pasto. También que vayas hidratado, y a su vez, lleves tu botella con agua.
+
+Podes anunciar que venís enviándonos un whatsapp
