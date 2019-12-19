@@ -20,10 +20,10 @@ seccion-beneficios-item3-subtitulo: Educa nuestro sistema respiratorio y nos ayu
 seccion-beneficios-item4-titulo: Disminuye el estrés
 seccion-beneficios-item4-subtitulo: Relaja tensiones y contracturas
 seccion-beneficios-item5-titulo: Ayuda a equilibrar las emociones
-seccion-beneficios-item5-subtitulo: Al sincronizar la respiración profunda y regular
-  la presión arterial
+seccion-beneficios-item5-subtitulo: La conexión con la respiración genera estados
+  de calma y quietud
 seccion-beneficios-item6-titulo: Nos conecta con estados de serenidad
-seccion-beneficios-item6-subtitulo: Meditación y relajación son parte de la práctica
+seccion-beneficios-item6-subtitulo: 'Gracias a la práctica de meditación y relajación '
 seccion-clases-titulo: Clases
 seccion-horarios-titulo: Horarios
 seccion-eventos: Proximos Eventos
