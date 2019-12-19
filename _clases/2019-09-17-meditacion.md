@@ -1,12 +1,11 @@
 ---
 title: Meditación
-subtitle: Taller de Meditación
+subtitle: 'Una vez al mes nos juntamos para realizar prácticas de meditación. '
 category: talleres
-imagen: /assets/images/artem-beliaikin-df3tLNzoBYM-unsplash.jpg
+imagen: "/assets/images/artem-beliaikin-df3tLNzoBYM-unsplash.jpg"
 alt: Imagen de un Buda
 linkFacebook: 
 linkInstagram: 
----
-Clases de Yoga grupales para todos los niveles. Hatha y Ashtanga. Se puede comenzar en cualquier momento del año.
 
-Lunes, Miercoles y Viernes 18hs
+---
+Para enterarte de los días podes seguir nuestro facebook e instagram 
