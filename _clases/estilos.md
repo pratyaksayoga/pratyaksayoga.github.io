@@ -1,6 +1,6 @@
 ---
 category: clases
-title: 'Estilos '
+title: Estilos de Yoga
 subtitle: ''
 imagen: "/assets/images/body-stretching-yoga-beauty-35987.jpg"
 alt: Postura Uttanasana yoga
