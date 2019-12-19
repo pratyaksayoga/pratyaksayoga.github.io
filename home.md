@@ -4,8 +4,8 @@ layout: index
 portada: "/assets/images/background.jpg"
 portada-phone: "/assets/images/background-portrait.jpg"
 title: home
-description: Clases de Yoga en Boedo y Almagro
-subtitle: Clases de Yoga en Boedo y Almagro
+description: Clases de Yoga en Almagro, Boedo y Parque Centenario
+subtitle: Clases de Yoga en Almagro, Boedo y Parque Centenario
 titular: Pratyaksa Yoga
 descripcion: Clases de Yoga en Boedo y Almagro
 seccion-beneficios-titulo: "¿Por qué practicar Yoga?"
