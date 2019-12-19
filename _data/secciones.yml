@@ -1,15 +1,6 @@
-##########################
-# SELECCION DE SECCIONES #
-# TRUE = ON FALSE =OFF   #
-##########################
-
+---
 beneficios: true
-
 clases: true
-
 horarios: true
-
-eventos: true
-
+eventos: false
 testimonios: true
-
