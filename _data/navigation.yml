@@ -1,31 +1,15 @@
-#HOME
+---
 - name: Inicio
   link: "#home"
-
-#CLASES
 - name: Beneficios
   link: "#beneficios"
-
-#CLASES
 - name: Clases
   link: "#clases"
-
-#HORARIOS
 - name: Horarios
   link: "#horarios"
-
-#Eventos
-- name: Eventos
-  link: "#eventos"
-
-#Contacto
 - name: Contacto
   link: "#contacto"
-
-#Galeria
 - name: Galeria
-  link: "galeria"
-
-#Nosotros
+  link: galeria
 - name: Nosotros
-  link: "equipo"
+  link: equipo
