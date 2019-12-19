@@ -10,3 +10,5 @@ fields:
   label: Pie de foto
   description: No es visible, se utiliza para los lectores de pantalla que utiliza
     la gente no vidente
+pages:
+- _galeria/Balasana yoga.md
