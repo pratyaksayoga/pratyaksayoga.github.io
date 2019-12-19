@@ -1,5 +1,6 @@
 ---
-autor: Ana Pinto
+autor: 'Ana '
+
 ---
 Conocí a Ale y Feli, buscando tomar clases de yoga terapéutico, por orden médica. Desde el
 minuto uno, ellos me recibieron con mucho cariño. Las clases son 100% recomendables, están
