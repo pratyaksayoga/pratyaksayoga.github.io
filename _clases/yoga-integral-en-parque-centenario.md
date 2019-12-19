@@ -6,7 +6,7 @@ subtitle: Clases de Yoga al aire libre en Parque centenario, Caba. Sábado y dom
 imagen: "/assets/images/79421886_405163383534101_1389850360423645184_n.jpg"
 alt: Foto grupal
 linkFacebook: https://www.facebook.com/groups/yoga.cente.pratyaksa/
-linkInstagram: ''
+linkInstagram: https://www.instagram.com/pratyaksa_yoga/
 
 ---
 Yoga Integral en Parque Centenario, Caba.  
