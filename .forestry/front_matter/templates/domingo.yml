@@ -410,3 +410,5 @@ fields:
     - type: text
       name: color
       label: color
+pages:
+- _data/horario.yml
