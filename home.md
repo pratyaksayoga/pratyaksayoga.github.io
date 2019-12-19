@@ -15,10 +15,10 @@ seccion-beneficios-item2-titulo: Mejora la postura
 seccion-beneficios-item2-subtitulo: A través de la tonificación y el estiramiento
   muscular
 seccion-beneficios-item3-titulo: Mejora la respiración
-seccion-beneficios-item3-subtitulo: Amplia la capacidad pulmonar y nos enseña a oxigenarnos
-  mejor
+seccion-beneficios-item3-subtitulo: Educa nuestro sistema respiratorio y nos ayuda
+  a oxigenarnos mejor
 seccion-beneficios-item4-titulo: Disminuye el estrés
-seccion-beneficios-item4-subtitulo: Ya que relaja tensiones y contracturas
+seccion-beneficios-item4-subtitulo: Relaja tensiones y contracturas
 seccion-beneficios-item5-titulo: Ayuda a equilibrar las emociones
 seccion-beneficios-item5-subtitulo: Al sincronizar la respiración profunda y regular
   la presión arterial
