@@ -10,6 +10,10 @@ fields:
   label: Pie de foto
   description: No es visible, se utiliza para los lectores de pantalla que utiliza
     la gente no vidente
+- type: text
+  name: size
+  label: Tamaño de la imagen (ej; 500x600)
+  description: Tienen que ponerlo si o si. Haciendo click derecho->propiedades en una foto, pueden ver su tamaño. Luego lo escriben acá con este formato -> 500x600
 pages:
 - _galeria/Adho Mukha Svanasana.md
 - _galeria/Balasana yoga.md

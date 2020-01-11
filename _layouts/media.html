@@ -1,38 +1,30 @@
 ---
 layout: default
 ---
-<div class="container">
-    <div class="gallery">
+<style>
+/*Masonsry*/
+
+.grid-sizer{
+    display: none;
+}
+</style>
+<div class="container ">
+    <div>
         <h1 class="animated fadeIn">Galeria</h1>
-        <ul class="gallery__list px-0 ">
-            {% for img in site.galeria %}
-            <li class="animated fadeIn delay-2s ">
-                <figure>
-                    <img tabindex="2" src="//images.weserv.nl/?url={{site.url}}{{img.imagen}}&w=600" alt="{{img.pie}}" onerror="this.src='{{site.url}}{{img.imagen}}'" onclick="openModal();currentSlide({{img.title}})" class="hover-shadow">
-                </figure>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    <!-- The Modal/Lightbox -->
-</div>
-<div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
-            {% for img in site.galeria %}
-            <div class="mySlides py-auto justify-content-center">
-            <img class="align-self-center" src="//images.weserv.nl/?url={{site.url}}{{img.imagen}}&w=1300" onerror="this.src='{{site.url}}/{{img.imagen}}'" style="max-height:100vh; max-width: 100vw; margin: auto;">
+            <div id="lightbox" class="grid my-gallery" style="max-height: 100%;" itemscope itemtype="http://schema.org/ImageGallery">
+                <div class="grid-sizer col-12 col-sm-6 col-md-4"></div>
+                {% assign pid = 0 %}
+                {% for img in site.galeria %}
+                <div class="grid-item col-12 col-sm-6 col-md-4 my-3">
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-pid="{{pid}}">
+                        <a href="{{site.url}}{{img.imagen}}" itemprop="contentUrl" data-size="{{img.size}}">
+                            <img src="//images.weserv.nl/?url={{site.url}}{{img.imagen}}&w=600" class="img-fluid" itemprop="thumbnail" alt="{{img.pie}}" />
+                        </a>
+                    </figure>
+                </div>
+                {% assign pid = pid | plus: 1 %}
+                {% endfor %}                         
             </div>
-            {% endfor %}
-        
-            <!-- Next/previous controls -->
-            <a class="prev text-white" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next text-white" onclick="plusSlides(1)">&#10095;</a>
-        
-            <!-- Caption text -->
-            <div class="caption-container">
-            <p id="caption"></p>
-            </div>  
-            
         </div>
+    <!-- The Modal/Lightbox -->
 </div>
