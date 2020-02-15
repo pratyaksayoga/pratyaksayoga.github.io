@@ -100,10 +100,10 @@ viernes:
     sede: Almagro
     color: 483c46
   espacio-4:
-    clase: Yoga Integral
-    horario: 20hs
-    sede: Boedo
-    color: f4743b
+    clase: ''
+    horario: ''
+    sede: ''
+    color: ''
 sabado:
   espacio-1:
     clase: 'Sábado y Domingo: Yoga Integral '
