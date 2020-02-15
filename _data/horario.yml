@@ -85,10 +85,10 @@ jueves:
     color: ''
 viernes:
   espacio-1:
-    clase: Yoga Integral
-    horario: 11:30hs
-    sede: Almagro
-    color: 52489c
+    clase: ''
+    horario: ''
+    sede: ''
+    color: ''
   espacio-2:
     clase: Yoga Integral
     horario: 18:15hs
