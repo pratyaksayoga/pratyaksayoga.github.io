@@ -43,10 +43,10 @@ martes:
     color: 483c46
 miercoles:
   espacio-1:
-    clase: Yoga Integral
-    horario: 11:30hs
-    sede: Almagro
-    color: 52489c
+    clase: ''
+    horario: ''
+    sede: ''
+    color: ''
   espacio-2:
     clase: ''
     horario: ''
