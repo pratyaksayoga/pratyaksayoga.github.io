@@ -29,7 +29,8 @@ description: Clases de Yoga en Boedo y Almagro
 baseurl: "/" # the subpath of your site, e.g. /blog        #
 #                                                          #
 #DOMINIO DEL SITIO WEB                                     #
-url: "https://pratyaksayoga.github.io"                     #
+#url: "https://pratyaksayoga.github.io"                     #
+url: "https://pratyaksayoga.com.ar"
 #                                                          # 
 # Build settings                                           #
 theme: minima                                              #
