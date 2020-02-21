@@ -410,5 +410,110 @@ fields:
     - type: text
       name: color
       label: color
+- name: domingo
+  type: field_group
+  config: {}
+  fields:
+  - name: espacio-1
+    type: field_group
+    config: {}
+    fields:
+    - name: clase
+      type: text
+      config:
+        required: false
+      label: clase
+    - name: horario
+      type: text
+      config:
+        required: false
+      label: horario
+    - name: sede
+      type: text
+      config:
+        required: false
+      label: sede
+    - name: color
+      type: text
+      config:
+        required: false
+      label: color
+    label: espacio-1
+  - name: espacio-2
+    type: field_group
+    config: {}
+    fields:
+    - name: clase
+      type: text
+      config:
+        required: false
+      label: clase
+    - name: horario
+      type: text
+      config:
+        required: false
+      label: horario
+    - name: sede
+      type: text
+      config:
+        required: false
+      label: sede
+    - name: color
+      type: text
+      config:
+        required: false
+      label: color
+    label: espacio-2
+  - name: espacio-3
+    type: field_group
+    config: {}
+    fields:
+    - name: clase
+      type: text
+      config:
+        required: false
+      label: clase
+    - name: horario
+      type: text
+      config:
+        required: false
+      label: horario
+    - name: sede
+      type: text
+      config:
+        required: false
+      label: sede
+    - name: color
+      type: text
+      config:
+        required: false
+      label: color
+    label: espacio-3
+  - name: espacio-4
+    type: field_group
+    config: {}
+    fields:
+    - name: clase
+      type: text
+      config:
+        required: false
+      label: clase
+    - name: horario
+      type: text
+      config:
+        required: false
+      label: horario
+    - name: sede
+      type: text
+      config:
+        required: false
+      label: sede
+    - name: color
+      type: text
+      config:
+        required: false
+      label: color
+    label: espacio-4
+  label: domingo
 pages:
 - _data/horario.yml
