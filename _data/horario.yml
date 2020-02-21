@@ -125,3 +125,24 @@ sabado:
     horario: ''
     sede: ''
     color: ''
+domingo:
+  espacio-1:
+    clase: ''
+    horario: ''
+    sede: ''
+    color: ''
+  espacio-2:
+    clase: ''
+    horario: ''
+    sede: ''
+    color: ''
+  espacio-3:
+    clase: ''
+    horario: ''
+    sede: ''
+    color: ''
+  espacio-4:
+    clase: ''
+    horario: ''
+    sede: ''
+    color: ''
