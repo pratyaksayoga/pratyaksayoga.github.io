@@ -132,9 +132,9 @@ domingo:
     sede: ''
     color: ''
   espacio-2:
-    clase: ''
-    horario: ''
-    sede: ''
+    clase: clase de preuba
+    horario: horario falso
+    sede: sede falsa
     color: ''
   espacio-3:
     clase: ''
