@@ -1,5 +1,5 @@
 ---
-label: 'Domingo '
+label: 'Horario '
 hide_body: true
 fields:
 - type: field_group
