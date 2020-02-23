@@ -106,7 +106,7 @@ viernes:
     color: ''
 sabado:
   espacio-1:
-    clase: 'Sábado y Domingo: Yoga Integral '
+    clase: 'Yoga Integral '
     horario: '12h '
     sede: Parque Centenario, a la gorra (contribución voluntaria y consciente)
     color: ''
@@ -127,9 +127,9 @@ sabado:
     color: ''
 domingo:
   espacio-1:
-    clase: ''
-    horario: ''
-    sede: ''
+    clase: 'Yoga Integral '
+    horario: 12h
+    sede: Parque Centenario ( a la gorra, a contribución voluntaria y consciente)
     color: ''
   espacio-2:
     clase: ''
