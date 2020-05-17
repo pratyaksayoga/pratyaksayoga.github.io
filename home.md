@@ -4,7 +4,7 @@ layout: index
 portada: "/assets/images/background.jpg"
 portada-phone: "/assets/images/background-portrait.jpg"
 title: home
-description: Clases de Yoga Online, salones en Almagro, Boedo. Al aire libre en Parque
+description: Clases de Yoga Online, salones en Almagro y Boedo. Al aire libre en Parque
   Centenario
 subtitle: Clases de Yoga Online. Salones en Almagro y Boedo. Al aire libre en Parque
   Centenario
