@@ -4,8 +4,10 @@ layout: index
 portada: "/assets/images/background.jpg"
 portada-phone: "/assets/images/background-portrait.jpg"
 title: home
-description: Clases de Yoga en Almagro, Boedo y Parque Centenario
-subtitle: Clases de Yoga en Almagro, Boedo y Parque Centenario
+description: Clases de Yoga Online, salones en Almagro, Boedo. Al aire libre en Parque
+  Centenario
+subtitle: Clases de Yoga Online. Salones en Almagro y Boedo. Al aire libre en Parque
+  Centenario
 titular: Pratyaksa Yoga
 seccion-beneficios-titulo: "¿Por qué practicar Yoga?"
 seccion-beneficios-item1-titulo: Mejora la salud general
