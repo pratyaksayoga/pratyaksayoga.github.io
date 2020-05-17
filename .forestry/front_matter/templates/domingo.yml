@@ -515,5 +515,3 @@ fields:
       label: color
     label: espacio-4
   label: domingo
-pages:
-- _data/horario.yml
