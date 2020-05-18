@@ -1,6 +1,6 @@
 ---
 beneficios: true
 clases: true
-horarios: true
+horarios: false
 eventos: false
 testimonios: true
