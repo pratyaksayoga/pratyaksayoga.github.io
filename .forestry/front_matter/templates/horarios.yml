@@ -1,0 +1,19 @@
+---
+label: 'Horarios '
+hide_body: true
+fields:
+- type: boolean
+  name: beneficios
+  label: beneficios
+- type: boolean
+  name: clases
+  label: clases
+- type: boolean
+  name: horarios
+  label: horarios
+- type: boolean
+  name: eventos
+  label: eventos
+- type: boolean
+  name: testimonios
+  label: testimonios
